@@ -26,11 +26,40 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- jQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar=link" href="#home">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar=link" href="#">Menu</a>
+            <div id="menuList" class="popover open">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="#menuItem1">Menu Item 1</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#menuItem1">Menu Item 2</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
