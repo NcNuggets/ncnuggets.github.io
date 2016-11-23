@@ -38,7 +38,7 @@ body {
    }
 
       #twitterShare {
-        color: rgb(135, 187, 155);
+        color: rgb(0, 187, 155);
         border-radius: 4px;
         border: none;
         float: left;
@@ -46,7 +46,7 @@ body {
 
       #newQuote {
         font-weight: bold;
-        background-color: rgb(135, 187, 155);
+        background-color: rgb(0, 187, 155);
         border-radius: 4px;
         border: none;
         height: 35px;
