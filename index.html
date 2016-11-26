@@ -20,14 +20,6 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="css/font-awesome.css">
 
-  <!-- fCC-quoteGenerator.js -->
-  <script src="js/fCC-quoteGenerator.js"></script>
-
-  <script>
-    document.getElementsById('quoteText').innerHTML = "test quote";
-    document.getElementsById('quoteAuthor').innerHTML = "test author";
-  </script>
-
 </head>
 
 <body>
@@ -40,12 +32,12 @@
          <i class = 'fa fa-quote-left fa-2x'></i>
        </div>
        <!-- actual quote text -->
-        <div id = 'quoteText'>
-           <p>The phoenix must burn to emerge.</p>
+        <div id = 'quoteDiv'>
+          <p id = 'quoteText'>The phoenix must burn to emerge.</p>
         </div>
         <!-- author of quote -->
-        <div id = 'quoteAuthor'>
-          <p>- Janet Fitch</p>
+        <div id = 'authorDiv'>
+          <p id = 'quoteAuthor'>- Janet Fitch</p>
         </div>
         <!-- container for buttons -->
         <div id = 'buttons'>
@@ -66,6 +58,9 @@
         <h6>by <a href = 'https://github.com/NcNuggets'>ncnuggets</a></h6>
      </div>
   </div>
+
+  <!-- fCC-quoteGenerator.js -->
+  <script src="js/fCC-quoteGenerator.js"></script>
 
 </body>
 </html>

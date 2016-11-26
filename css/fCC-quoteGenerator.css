@@ -27,14 +27,18 @@ a {
     float: left;
   }
 
-   #quoteText {
+   #quoteDiv {
      margin: 0 auto;
      text-align: center;
      font-weight: bold;
      font-size: 24pt;
    }
 
-   #quoteAuthor {
+   #quoteText {
+
+   }
+
+   #authorDiv {
      margin: 0 auto;
      text-align: center;
      font-size: 11pt;

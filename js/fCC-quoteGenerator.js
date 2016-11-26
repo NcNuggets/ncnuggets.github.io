@@ -5,6 +5,16 @@
  * 6. need to prepare a tweet for sending onclick of twitter btn */
 
 function main () {
+  var newQuote = "test quote 3";
+  var newAuthor = "test author 3";
+
+  var oldQuote = document.getElementById('quoteText');
+  var oldAuthor = document.getElementById('quoteAuthor');
+
+  oldQuote.innerHTML = newQuote;
+  oldAuthor.innerHTML = newAuthor;
+
+/*
   // variables
   var quoteNumber = 0;
   var newQuote = "test quote";
@@ -25,4 +35,5 @@ function main () {
     document.getElementsById('quoteText').innerHTML = newQuote;
     document.getElementsById('quoteAuthor').innerHTML = newAuthor;
   }
+*/
 }
