@@ -4,36 +4,23 @@
  * 5. need to tap the twitter api
  * 6. need to prepare a tweet for sending onclick of twitter btn */
 
-function main () {
-  var newQuote = "test quote 3";
-  var newAuthor = "test author 3";
+// variables
+var newQuote = "test quote 3";
+var newAuthor = "test author 3";
+var randNum = 0;
 
-  var oldQuote = document.getElementById('quoteText');
-  var oldAuthor = document.getElementById('quoteAuthor');
+var oldQuote = document.getElementById('quoteText');
+var oldAuthor = document.getElementById('quoteAuthor');
 
-  oldQuote.innerHTML = newQuote;
-  oldAuthor.innerHTML = newAuthor;
+oldQuote.innerHTML = newQuote;
+oldAuthor.innerHTML = newAuthor;
 
-/*
-  // variables
-  var quoteNumber = 0;
-  var newQuote = "test quote";
-  var newAuthor = "test author";
-
-  // object constructor to build quotes called "Quotes"
-  function Quotes (quote, author) {
-    this.quote = quote;
-    this.author = author;
-  }
-
-  // function to randomize a number between 0 - X, where X is the size of object Quotes, and assigns that number to quoteNumber
-
-  // function that chooses a quote from quotes and assigns it to array newQuote
-
-  // function that changes the html id's for quoteText and quoteAuthor to the proper indeces from newQuote
-  function setQuote (newQuote, newAuthor) {
-    document.getElementsById('quoteText').innerHTML = newQuote;
-    document.getElementsById('quoteAuthor').innerHTML = newAuthor;
-  }
-*/
+// object constructor to build quotes called "Quotes"
+function Quotes (quote, author) {
+  this.quote = quote;
+  this.author = author;
 }
+
+// function to randomize a number between 0 - X, where X is the size of object Quotes, and assigns that number to quoteNumber
+
+// function that chooses a quote from quotes and assigns it to array newQuote
