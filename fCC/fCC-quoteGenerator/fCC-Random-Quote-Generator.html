@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<title>Random Quote Generator | Nick-Pucillo.com</title>
+
+<head>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- fCC-quoteGenerator.css -->
+  <link rel="stylesheet" href="css/fCC-quoteGenerator.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+</head>
+
+<body>
+  <!-- container to hold everything on the page -->
+  <div id ='container'>
+    <!-- box that contains the quote, author, tweet and new quote buttons -->
+    <div id = 'quoteBox'>
+      <!-- begin quote, inclusive of the icon from font-awesome -->
+      <div id = 'quoteIcon'>
+        <i class = 'fa fa-quote-left fa-2x'></i>
+      </div>
+      <!-- actual quote text -->
+      <div id = 'quoteDiv'>
+        <p id = 'quoteText'>The phoenix must burn to emerge.</p>
+      </div>
+      <!-- author of quote -->
+      <div id = 'authorDiv'>
+        <p id = 'quoteAuthor'>- Janet Fitch</p>
+      </div>
+
+      <!-- container for buttons -->
+      <div id = 'buttons'>
+        <!-- button to share through twitter -->
+        <div>
+          <a id = 'twitterShare' href = '' onclick = 'tweetText()'><i class = 'fa fa-twitter-square fa-3x'></i></a>
+        </div>
+        <!-- button for new quote -->
+        <div>
+          <button id = 'newQuote' onclick = 'nextQuote()'>New Quote</button>
+        </div>
+
+      </div>
+
+     </div>
+     <!-- link to profile -->
+     <div id = 'author'>
+        <p>by <a href = 'https://github.com/NcNuggets'>ncnuggets</a></p>
+     </div>
+  </div>
+
+  <!-- fCC-quoteGenerator.js -->
+  <script src="js/fCC-quoteGenerator.js"></script>
+
+</body>
+</html>
