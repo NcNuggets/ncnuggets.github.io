@@ -1,11 +1,11 @@
-/* 1. need to style the font and background
- * 2. need to animate the quote transition
- * 3. need to style the button
- * 4. need to animate the hover of buttons */
-
 body {
    background-color: rgb(0, 187, 155);
    font-family: "console", monospace;
+}
+
+a {
+   color: black;
+   text-decoration: none;
 }
 
 #container {
@@ -13,6 +13,7 @@ body {
    max-width: 500px;
    max-height: 400px;
    margin: 15% auto;
+   color: black;
 }
 
 #quoteBox {
@@ -21,20 +22,26 @@ body {
    border-radius: 4px;
 }
 
-  .fa-quote-left {
+  #quoteIcon {
     padding-right: 5px;
+    float: left;
   }
 
    #quoteText {
+     margin: 0 auto;
+     text-align: center;
      font-weight: bold;
+     font-size: 24pt;
    }
 
-   #quoted {
-     position: absolute
+   #quoteAuthor {
+     margin: 0 auto;
+     text-align: center;
+     font-size: 11pt;
    }
 
    #buttons {
-     padding: 50px;
+     height: 42px;
    }
 
       #twitterShare {
@@ -44,14 +51,24 @@ body {
         float: left;
       }
 
+      #twitterShare:hover {
+        opacity: 0.6;
+      }
+
       #newQuote {
         font-weight: bold;
-        background-color: rgb(0, 187, 155);
+        font-size: 11pt;
         border-radius: 4px;
         border: none;
-        height: 35px;
-        width: 100px;
+        height: 42px;
+        width: 110px;
         float: right;
+        background-color: rgb(0, 187, 155);
+      }
+
+      #newQuote:hover {
+        color: white;
+        opacity: 0.6;
       }
 
 #author {
@@ -60,9 +77,4 @@ body {
    text-align: center;
    margin: auto;
    padding: 15px;
-}
-
-a {
-   color: black;
-   text-decoration: none;
 }
