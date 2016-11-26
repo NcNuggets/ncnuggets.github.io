@@ -53,7 +53,7 @@ tweets = [
   'https://twitter.com/intent/tweet?text="The only real mistake is the one from which we learn nothing." Henry Ford',
   'https://twitter.com/intent/tweet?text="I have not failed. I\'ve just found 10,000 ways that won\'t work." Thomas A. Edison',
   'https://twitter.com/intent/tweet?text="Success is stumbling from failure to failure with no loss of enthusiasm." Winston Churchill',
-  'https://twitter.com/intent/tweet?text=https://twitter.com/intent/tweet?text="What is the point of being alive if you don\'t at least try to do something remarkable?" John Green',
+  'https://twitter.com/intent/tweet?text="What is the point of being alive if you don\'t at least try to do something remarkable?" John Green',
   'https://twitter.com/intent/tweet?text="We are stubborn on vision, but flexible on the details.." Jeff Bezos',
   'https://twitter.com/intent/tweet?text="I am not a self-made man." Arnold Schwarzenegger'
 ];
