@@ -33,8 +33,6 @@ function randInt() {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-quoteNum = randInt();
-
 // loading the default quote in the array
 newQuote.innerHTML = quotes[quoteNum][1];
 newAuthor.innerHTML = quotes[quoteNum][0];
