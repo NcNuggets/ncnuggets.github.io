@@ -14,8 +14,9 @@ Bonus Challenge: Try to incorporate input into this program, perhaps with the pr
 */
 
 function calculatePhoneCost() {
-  var balance = prompt("Please enter a sample bank account balance");
-  const  TAX_RATE = 0.06
-
-  console.log(balance);
+  const TAX_RATE = 0.06
+  const PRICE_PHONE = 99.99
+  const PRICE_ACCESSORY = 9.99
+  var bankBalance = prompt("Please enter a sample bank account balance");
+  var spendingThreshold = prompt ("Please enter a spending threshold for your purchases");
 }
