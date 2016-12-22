@@ -13,10 +13,45 @@ You should define functions for calculating the tax and for formatting the price
 Bonus Challenge: Try to incorporate input into this program, perhaps with the prompt(..) covered in "Input" earlier. You may prompt the user for their bank account balance, for example. Have fun and be creative!
 */
 
-function calculatePhoneCost() {
-  const TAX_RATE = 0.06
-  const PRICE_PHONE = 99.99
-  const PRICE_ACCESSORY = 9.99
-  var bankBalance = prompt("Please enter a sample bank account balance");
-  var spendingThreshold = prompt ("Please enter a spending threshold for your purchases");
+function buyPhones() {
+  // Define initial values for variables
+  var bankBalance = Number(prompt("Fake Bank Account Balance?"));
+  var purchaseAmount = Number(0);
+
+  const TAX_RATE = Number(0.06);
+  const PRICE_PHONE = Number(99.99);
+  const PRICE_ACCESSORY = Number(9.99);
+  const SPEND_THRESHOLD = Number(prompt("Spend Threshold?"));
+
+  // Define functions for later calculations of sub-total pre-tax purchase amount and total post-tax purchase amount
+  function subTotal() {
+    purchaseAmount += PRICE_PHONE + PRICE_ACCESSORY;
+  }
+
+  function total() {
+    purchaseAmount *= (1 + TAX_RATE);
+  }
+
+  function newBalance() {
+    bankBalance -= purchaseAmount;
+  }
+
+  // Purchase the phones
+  while (bankBalance > 0 && purchaseAmount < SPEND_THRESHOLD) {
+    subTotal();
+    console.log("subTotal: " + "$" + purchaseAmount.toFixed(2));
+  }
+
+  // Calculate the total after taxes
+  total();
+  console.log("total: " + "$" + purchaseAmount.toFixed(2));
+
+  // If you can afford the current total balance after tax, purchase the phones and remove the total from your bank account
+  if (purchaseAmount < bankBalance) {
+    newBalance();
+    console.log("I'll buy!");
+    console.log("newBalance: " + "$" + bankBalance.toFixed(2));
+  } else {
+    console.log("Sorry, I can't afford that.");
+  }
 }
