@@ -13,7 +13,7 @@ var tweets = [];
 
 // array of quotes
 quotes = [
-  ['- Nick', 'Hey Babe, Happy Anniversary!'],
+  ['- Nick', 'Hey Babe, Happy Anniversary!  I thought I\'d put together 100 Moments I\'ve recorded in my journal and put them here for you to see when you\'re feeling down.'],
   ['I am grateful for...', 'Amanda\'s logical reasoning and appreciation instead of flipping her shit for no reason.'],
   ['I am grateful for...', 'An opportunity to relax with Amanda\'s family.'],
   ['I am grateful for...', 'Waking up next to an amazing woman (Amanda).'],
@@ -96,6 +96,24 @@ quotes = [
   ['Amazing things that happened today...', 'Woke up next to Amanda.'],
   ['Amazing things that happened today...', 'Woke up next to Amanda.'],
   ['Amazing things that happened today...', 'Chatted with Amanda on the phone, I love hearing her voice instead of texting I think.'],
+  ['How could today have been better?', 'I could have snagged a few more hugs from Amanda.'],
+  ['How could today have been better?', 'Spent time with Amanda.'],
+  ['How could today have been better?', 'Quality time with Amanda ;), instead I got a bit too drunk.'],
+  ['How could today have been better?', 'I could have made Amanda smile MORE.'],
+  ['How could today have been better?', 'I could have kissed Amanda one more time before I left this morning.'],
+  ['How could today have been better?', 'More Amanda.'],
+  ['How could today have been better?', 'Saw Amanda a bit more before she goes off to Texas, it was such a quick goodbye.'],
+  ['How could today have been better?', 'Hugs with Amanda.'],
+  ['How could today have been better?', 'Not enough Amanda in my life today.'],
+  ['How could today have been better?', 'Quality time with Amanda, she fell asleep instead :|'],
+  ['How could today have been better?', 'Paid a bit more attention to Amanda while we were together.'],
+  ['How could today have been better?', 'Invited Amanda over to spend the night.'],
+  ['How could today have been better?', 'Appreciated Amanda more.'],
+  ['How could today have been better?', 'Not disrespected Amanda with my inconsiderate, impulsive banter.'],
+  ['How could today have been better?', 'Could have paid more mind to Amanda.'],
+  ['How could today have been better?', 'Going to sleep next to Amanda.'],
+  ['How could today have been better?', 'Should have gone to Amanda\'s instead of going out.'],
+  ['How could today have been better?', 'Reached out to Amanda more.'],
 ];
 
 // assigning the quote and author variables with the html ids
