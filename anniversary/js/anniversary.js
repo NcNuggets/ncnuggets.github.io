@@ -13,13 +13,16 @@ var tweets = [];
 
 // array of quotes
 quotes = [
-  ['- Janet Fitch', 'The phoenix must burn to emerge.'],
-  ['- Henry Ford', 'The only real mistake is the one from which we learn nothing.'],
-  ['- Thomas A. Edison', 'I have not failed. I\'ve just found 10,000 ways that won\'t work.'],
-  ['- Winston Churchill', 'Success is stumbling from failure to failure with no loss of enthusiasm.'],
-  ['- John Green', 'What is the point of being alive if you don\'t at least try to do something remarkable?'],
-  ['- Jeff Bezos', 'We are stubborn on vision, but flexible on the details..'],
-  ['- Arnold Schwarzenegger', 'I am not a self-made man.']
+  ['I am grateful for...', 'Amanda\'s logical reasoning and appreciation instead of flipping her shit for no reason.'],
+  ['I am grateful for...', 'An opportunity to relax with Amanda\'s family.'],
+  ['I am grateful for...', 'Waking up next to an amazing woman (Amanda).'],
+  ['I am grateful for...', 'Amanda\'s boundless patience.'],
+  ['I am grateful for...', 'Doing nothing but laying in bed all day yesterday with Amanda. Quality time to the max.'],
+  ['I am grateful for...', 'Amanda\'s Christmas card to me, it helps me when I\'m down.'],
+  ['I am grateful for...', 'Amanda, who reminds me to live in the moment and forget about the future, the past, the goals, the challenges, if only for a moment, a morning or a day.'],
+  ['I am grateful for...', 'Amanda, for centering me.'],
+  ['I am grateful for...', 'Amanda, for putting up with my introverted tendencies.'],
+  ['I am grateful for...', 'Amanda having her own interests, like football, which allows us to have separate lives and value our shared time together a little more.'],
 ];
 
 // assigning the quote and author variables with the html ids
@@ -43,21 +46,4 @@ function nextQuote() {
   quoteNum = randInt();
   newQuote.innerHTML = quotes[quoteNum][1];
   newAuthor.innerHTML = quotes[quoteNum][0];
-}
-
-// array of tweets
-tweets = [
-  'https://twitter.com/intent/tweet?text="The phoenix must burn to emerge." Janet Fitch',
-  'https://twitter.com/intent/tweet?text="The only real mistake is the one from which we learn nothing." Henry Ford',
-  'https://twitter.com/intent/tweet?text="I have not failed. I\'ve just found 10,000 ways that won\'t work." Thomas A. Edison',
-  'https://twitter.com/intent/tweet?text="Success is stumbling from failure to failure with no loss of enthusiasm." Winston Churchill',
-  'https://twitter.com/intent/tweet?text="What is the point of being alive if you don\'t at least try to do something remarkable?" John Green',
-  'https://twitter.com/intent/tweet?text="We are stubborn on vision, but flexible on the details.." Jeff Bezos',
-  'https://twitter.com/intent/tweet?text="I am not a self-made man." Arnold Schwarzenegger'
-];
-
-// function to set the tweet
-function tweetText() {
-  var tweet = document.getElementById('twitterShare');
-  tweet.href = tweets[quoteNum];
 }
