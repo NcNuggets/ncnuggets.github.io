@@ -13,6 +13,7 @@ var tweets = [];
 
 // array of quotes
 quotes = [
+  ['- Nick', 'Hey Babe, Happy Anniversary!'],
   ['I am grateful for...', 'Amanda\'s logical reasoning and appreciation instead of flipping her shit for no reason.'],
   ['I am grateful for...', 'An opportunity to relax with Amanda\'s family.'],
   ['I am grateful for...', 'Waking up next to an amazing woman (Amanda).'],
