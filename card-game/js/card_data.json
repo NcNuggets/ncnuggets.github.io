@@ -1,1 +1,18 @@
-data = '[{"name" : "Ashwin", "age" : "20"},{"name" : "Abhinandan", "age" : "20"}]';
+cards = '[
+  {
+    "name" : "spades_ace",
+    "label" : "SA",
+    "cardNum" : 1,
+    "value" : 14,
+    "suit" : "spades",
+    "color" : "black"
+  },
+  {
+    "name" : "spades_king",
+    "label" : "SK",
+    "cardNum" : 2,
+    "value" : 13,
+    "suit" : "spades",
+    "color" : "black"
+  }
+]';
