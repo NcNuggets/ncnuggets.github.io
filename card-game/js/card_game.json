@@ -1,0 +1,87 @@
+{
+  "cards" : {
+    "spades" : {
+      "A" : {
+        "label" : "s_ace",
+        "color" : "black",
+        "suit" : "Spades",
+        "value" : 14,
+        "cardNumber" : 1,
+        "cardType" : "face"
+      },
+      "K" : {
+        "label" : "s_king",
+        "color" : "black",
+        "suit" : "Spades",
+        "value" : 13,
+        "cardNumber" : 2,
+        "cardType" : "face"
+      },
+      "Q" : {
+        "label" : "s_queen",
+        "color" : "black",
+        "suit" : "Spades",
+        "value" : 12,
+        "cardNumber" : 3,
+        "cardType" : "face"
+      },
+      "J" : {
+        "label" : "s_jack",
+        "color" : "black",
+        "suit" : "Spades",
+        "value" : 11,
+        "cardNumber" : 4,
+        "cardType" : "face"
+      },
+      "10" : {
+        "label" : "s_ten",
+        "color" : "black",
+        "suit" : "Spades",
+        "value" : 10,
+        "cardNumber" : 5,
+        "cardType" : "numeral"
+      },
+      "hearts" : {
+        "A" : {
+          "label" : "h_ace",
+          "color" : "black",
+          "suit" : "Spades",
+          "value" : 14,
+          "cardNumber" : 15,
+          "cardType" : "face"
+        },
+        "K" : {
+          "label" : "h_king",
+          "color" : "black",
+          "suit" : "Spades",
+          "value" : 13,
+          "cardNumber" : 16,
+          "cardType" : "face"
+        },
+        "Q" : {
+          "label" : "h_queen",
+          "color" : "black",
+          "suit" : "Spades",
+          "value" : 12,
+          "cardNumber" : 17,
+          "cardType" : "face"
+        },
+        "J" : {
+          "label" : "h_jack",
+          "color" : "black",
+          "suit" : "Spades",
+          "value" : 11,
+          "cardNumber" : 18,
+          "cardType" : "face"
+        },
+        "10" : {
+          "label" : "h_ten",
+          "color" : "black",
+          "suit" : "Spades",
+          "value" : 10,
+          "cardNumber" : 19,
+          "cardType" : "numeral"
+        }
+    }
+  }
+}
