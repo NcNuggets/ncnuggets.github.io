@@ -1,5 +1,5 @@
 function cardGame() {
-  var cardData = JSON.parse(data);
+  var cardData = JSON.parse(cardDeck);
   alert(cardData[0].name);
   alert(cardData[0].label);
   alert(cardData[0].cardNum);
